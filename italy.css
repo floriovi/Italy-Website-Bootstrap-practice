@@ -1,0 +1,87 @@
+/* .card {
+    width: 150px;
+    margin: 10px;
+}
+
+#cards {
+    height: 700px;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+#textStuff {
+  margin-right: 50px;
+}
+
+.slide1-text,
+.slide2-text,
+.slide3-text {
+  font-weight: bold;
+}
+
+.slide2-text {
+  color: black;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.green {
+  color: green;
+}
+.white {
+  color: #fff;
+}
+.red {
+  color: red;
+}
+
+#jumbotroncolour {
+  background-color: #ababab;
+}
+
+.jumbotron-parallax {
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)),
+    url(https://images6.alphacoders.com/877/thumb-1920-877092.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white !important;
+  height: 95vh;
+}
+
+.page-scroll {
+  height: 10px;
+}
+
+.btn-outline-danger {
+  color: white;
+  border-color: white;
+  border-radius: 0px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.lead-parallax {
+  font-family: raleway;
+  font-weight: 100;
+  margin-top: -10px;
+}
+
+.banner-p {
+  font-size: 1.5rem !important;
+}
